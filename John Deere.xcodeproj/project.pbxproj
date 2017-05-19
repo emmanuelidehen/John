@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50EB8BA1ECC46A700EF40D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8B91ECC46A700EF40D1 /* AppDelegate.swift */; };
+		B50EB8BC1ECC46A700EF40D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8BB1ECC46A700EF40D1 /* ViewController.swift */; };
+		B50EB8BF1ECC46A700EF40D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50EB8BD1ECC46A700EF40D1 /* Main.storyboard */; };
+		B50EB8C11ECC46A700EF40D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50EB8C01ECC46A700EF40D1 /* Assets.xcassets */; };
+		B50EB8C41ECC46A700EF40D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50EB8C21ECC46A700EF40D1 /* LaunchScreen.storyboard */; };
+		B50EB8CC1ECD5FFC00EF40D1 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8CB1ECD5FFC00EF40D1 /* SignupViewController.swift */; };
+		B50EB8CE1ECD60BE00EF40D1 /* PullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8CD1ECD60BE00EF40D1 /* PullViewController.swift */; };
+		B50EB8D01ECD615900EF40D1 /* PartialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8CF1ECD615900EF40D1 /* PartialViewController.swift */; };
+		B50EB8D81ECDE6E100EF40D1 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8D71ECDE6E100EF40D1 /* Inventory.swift */; };
+		B50EB8DC1ECDE9B800EF40D1 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8DB1ECDE9B800EF40D1 /* LocationViewController.swift */; };
+		B50EB8DE1ECDF47900EF40D1 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8DD1ECDF47900EF40D1 /* NoteViewController.swift */; };
+		B50EB8E01ECE12C100EF40D1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8DF1ECE12C100EF40D1 /* CameraViewController.swift */; };
+		B50EB8E31ECE218C00EF40D1 /* InventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8E11ECE218C00EF40D1 /* InventoryCell.swift */; };
+		B50EB8E41ECE218C00EF40D1 /* InventoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50EB8E21ECE218C00EF40D1 /* InventoryCell.xib */; };
+		B50EB8E61ECE2C9A00EF40D1 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8E51ECE2C9A00EF40D1 /* AddItemViewController.swift */; };
+		B50EB8E81ECE717E00EF40D1 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8E71ECE717E00EF40D1 /* InventoryViewController.swift */; };
+		B50EB8EC1ECE810300EF40D1 /* InventoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB8EB1ECE810300EF40D1 /* InventoryDetailViewController.swift */; };
+		E01AEEEE0C69DCC6FD9D80FE /* Pods_John_Deere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E49DFDA5CA75700CCFC84B /* Pods_John_Deere.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1527F09A9DF6A74B5F7CFCA5 /* Pods-John Deere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-John Deere.debug.xcconfig"; path = "Pods/Target Support Files/Pods-John Deere/Pods-John Deere.debug.xcconfig"; sourceTree = "<group>"; };
+		5ABD692ED8937EF9E19A6615 /* Pods-John Deere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-John Deere.release.xcconfig"; path = "Pods/Target Support Files/Pods-John Deere/Pods-John Deere.release.xcconfig"; sourceTree = "<group>"; };
+		85E49DFDA5CA75700CCFC84B /* Pods_John_Deere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_John_Deere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50EB8B61ECC46A700EF40D1 /* John Deere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "John Deere.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50EB8B91ECC46A700EF40D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B50EB8BB1ECC46A700EF40D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B50EB8BE1ECC46A700EF40D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50EB8C01ECC46A700EF40D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50EB8C31ECC46A700EF40D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B50EB8C51ECC46A700EF40D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50EB8CB1ECD5FFC00EF40D1 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		B50EB8CD1ECD60BE00EF40D1 /* PullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullViewController.swift; sourceTree = "<group>"; };
+		B50EB8CF1ECD615900EF40D1 /* PartialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartialViewController.swift; sourceTree = "<group>"; };
+		B50EB8D71ECDE6E100EF40D1 /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		B50EB8DB1ECDE9B800EF40D1 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		B50EB8DD1ECDF47900EF40D1 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		B50EB8DF1ECE12C100EF40D1 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B50EB8E11ECE218C00EF40D1 /* InventoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryCell.swift; sourceTree = "<group>"; };
+		B50EB8E21ECE218C00EF40D1 /* InventoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InventoryCell.xib; sourceTree = "<group>"; };
+		B50EB8E51ECE2C9A00EF40D1 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		B50EB8E71ECE717E00EF40D1 /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		B50EB8EB1ECE810300EF40D1 /* InventoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50EB8B31ECC46A700EF40D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01AEEEE0C69DCC6FD9D80FE /* Pods_John_Deere.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		245DADC7964E8A8911088DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E49DFDA5CA75700CCFC84B /* Pods_John_Deere.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51565C827D0219CB2D927AC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1527F09A9DF6A74B5F7CFCA5 /* Pods-John Deere.debug.xcconfig */,
+				5ABD692ED8937EF9E19A6615 /* Pods-John Deere.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B50EB8AD1ECC46A700EF40D1 = {
+			isa = PBXGroup;
+			children = (
+				B50EB8B81ECC46A700EF40D1 /* John Deere */,
+				B50EB8B71ECC46A700EF40D1 /* Products */,
+				51565C827D0219CB2D927AC2 /* Pods */,
+				245DADC7964E8A8911088DBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B50EB8B71ECC46A700EF40D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50EB8B61ECC46A700EF40D1 /* John Deere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50EB8B81ECC46A700EF40D1 /* John Deere */ = {
+			isa = PBXGroup;
+			children = (
+				B50EB8EA1ECE71CF00EF40D1 /* View Controllers */,
+				B50EB8D71ECDE6E100EF40D1 /* Inventory.swift */,
+				B50EB8E91ECE71BD00EF40D1 /* Models */,
+				B50EB8E11ECE218C00EF40D1 /* InventoryCell.swift */,
+				B50EB8E21ECE218C00EF40D1 /* InventoryCell.xib */,
+				B50EB8B91ECC46A700EF40D1 /* AppDelegate.swift */,
+				B50EB8BB1ECC46A700EF40D1 /* ViewController.swift */,
+				B50EB8CD1ECD60BE00EF40D1 /* PullViewController.swift */,
+				B50EB8BD1ECC46A700EF40D1 /* Main.storyboard */,
+				B50EB8DF1ECE12C100EF40D1 /* CameraViewController.swift */,
+				B50EB8DD1ECDF47900EF40D1 /* NoteViewController.swift */,
+				B50EB8DB1ECDE9B800EF40D1 /* LocationViewController.swift */,
+				B50EB8CF1ECD615900EF40D1 /* PartialViewController.swift */,
+				B50EB8C01ECC46A700EF40D1 /* Assets.xcassets */,
+				B50EB8C21ECC46A700EF40D1 /* LaunchScreen.storyboard */,
+				B50EB8C51ECC46A700EF40D1 /* Info.plist */,
+			);
+			path = "John Deere";
+			sourceTree = "<group>";
+		};
+		B50EB8E91ECE71BD00EF40D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B50EB8EA1ECE71CF00EF40D1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B50EB8CB1ECD5FFC00EF40D1 /* SignupViewController.swift */,
+				B50EB8E71ECE717E00EF40D1 /* InventoryViewController.swift */,
+				B50EB8E51ECE2C9A00EF40D1 /* AddItemViewController.swift */,
+				B50EB8EB1ECE810300EF40D1 /* InventoryDetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50EB8B51ECC46A700EF40D1 /* John Deere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50EB8C81ECC46A700EF40D1 /* Build configuration list for PBXNativeTarget "John Deere" */;
+			buildPhases = (
+				85EA77D26C381B1755F3D343 /* [CP] Check Pods Manifest.lock */,
+				B50EB8B21ECC46A700EF40D1 /* Sources */,
+				B50EB8B31ECC46A700EF40D1 /* Frameworks */,
+				B50EB8B41ECC46A700EF40D1 /* Resources */,
+				CA14D2BC3DA43727C1FF8F3A /* [CP] Embed Pods Frameworks */,
+				F9E7D5D6AB97E7B437C10F68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "John Deere";
+			productName = "John Deere";
+			productReference = B50EB8B61ECC46A700EF40D1 /* John Deere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50EB8AE1ECC46A700EF40D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Emmanuel Idehen";
+				TargetAttributes = {
+					B50EB8B51ECC46A700EF40D1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B50EB8B11ECC46A700EF40D1 /* Build configuration list for PBXProject "John Deere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50EB8AD1ECC46A700EF40D1;
+			productRefGroup = B50EB8B71ECC46A700EF40D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50EB8B51ECC46A700EF40D1 /* John Deere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50EB8B41ECC46A700EF40D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50EB8E41ECE218C00EF40D1 /* InventoryCell.xib in Resources */,
+				B50EB8C41ECC46A700EF40D1 /* LaunchScreen.storyboard in Resources */,
+				B50EB8C11ECC46A700EF40D1 /* Assets.xcassets in Resources */,
+				B50EB8BF1ECC46A700EF40D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85EA77D26C381B1755F3D343 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA14D2BC3DA43727C1FF8F3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-John Deere/Pods-John Deere-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E7D5D6AB97E7B437C10F68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-John Deere/Pods-John Deere-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50EB8B21ECC46A700EF40D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50EB8CC1ECD5FFC00EF40D1 /* SignupViewController.swift in Sources */,
+				B50EB8BC1ECC46A700EF40D1 /* ViewController.swift in Sources */,
+				B50EB8D81ECDE6E100EF40D1 /* Inventory.swift in Sources */,
+				B50EB8E01ECE12C100EF40D1 /* CameraViewController.swift in Sources */,
+				B50EB8E81ECE717E00EF40D1 /* InventoryViewController.swift in Sources */,
+				B50EB8E61ECE2C9A00EF40D1 /* AddItemViewController.swift in Sources */,
+				B50EB8DE1ECDF47900EF40D1 /* NoteViewController.swift in Sources */,
+				B50EB8EC1ECE810300EF40D1 /* InventoryDetailViewController.swift in Sources */,
+				B50EB8E31ECE218C00EF40D1 /* InventoryCell.swift in Sources */,
+				B50EB8DC1ECDE9B800EF40D1 /* LocationViewController.swift in Sources */,
+				B50EB8BA1ECC46A700EF40D1 /* AppDelegate.swift in Sources */,
+				B50EB8D01ECD615900EF40D1 /* PartialViewController.swift in Sources */,
+				B50EB8CE1ECD60BE00EF40D1 /* PullViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B50EB8BD1ECC46A700EF40D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50EB8BE1ECC46A700EF40D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B50EB8C21ECC46A700EF40D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50EB8C31ECC46A700EF40D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B50EB8C61ECC46A700EF40D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B50EB8C71ECC46A700EF40D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50EB8C91ECC46A700EF40D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1527F09A9DF6A74B5F7CFCA5 /* Pods-John Deere.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "John Deere/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMCF-OFC.John-Deere";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B50EB8CA1ECC46A700EF40D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABD692ED8937EF9E19A6615 /* Pods-John Deere.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "John Deere/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMCF-OFC.John-Deere";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50EB8B11ECC46A700EF40D1 /* Build configuration list for PBXProject "John Deere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50EB8C61ECC46A700EF40D1 /* Debug */,
+				B50EB8C71ECC46A700EF40D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50EB8C81ECC46A700EF40D1 /* Build configuration list for PBXNativeTarget "John Deere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50EB8C91ECC46A700EF40D1 /* Debug */,
+				B50EB8CA1ECC46A700EF40D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50EB8AE1ECC46A700EF40D1 /* Project object */;
+}
